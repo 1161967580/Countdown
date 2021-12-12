@@ -55,7 +55,7 @@ function getTime() {
   return {
     'Total': t,
     'Year': t.getFullYear(),
-    'Month': t.getMonth(),
+    'Month': t.getMonth()+1,
     'Day': t.getDate()
   };
 }
