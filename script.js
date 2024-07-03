@@ -105,7 +105,7 @@ function Clock(countdown,callback) {
   setTimeout(updateClock,500);
 }
 
-var deadline = new Date("Dec 16, 2021");
+var deadline = new Date("Dec 31, 2024");
 var c = new Clock(deadline, function(){ alert('countdown complete') });
 document.body.appendChild(c.el);
 
